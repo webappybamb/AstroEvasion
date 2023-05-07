@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28127217566",
+    "project_id": "myproject001-12cba",
+    "storage_bucket": "myproject001-12cba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28127217566:android:171b4e1097127c2f7bf88f",
+        "android_client_info": {
+          "package_name": "com.example.astroevasion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28127217566-9n82l6l6e2225fkd1evnqsrd53kp0366.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxH_Mrg_jr6zBPQzP82Vdsc80ZGGheprw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28127217566-9n82l6l6e2225fkd1evnqsrd53kp0366.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

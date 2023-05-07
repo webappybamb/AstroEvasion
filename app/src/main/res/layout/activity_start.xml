@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:background="@drawable/bg"
+    android:gravity="center">
+
+
+    <ImageView
+        android:id="@+id/menu_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="end"
+        android:src="@drawable/menu_button"
+        android:text="Menu" />
+
+    <RelativeLayout
+        android:id="@+id/menu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+
+        <Button
+            android:id="@+id/menu_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Scores"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/menu_option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:layout_below="@id/menu_option1"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/planet1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/planet1"
+            />
+        <ImageView
+            android:id="@+id/planet2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/planet2"
+            />
+        <ImageView
+            android:id="@+id/planet3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/planet3"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/username"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/name_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:alpha="1"
+                android:src="@drawable/name" />
+
+            <ImageView
+                android:id="@+id/play_image"
+                android:layout_width="320dp"
+                android:layout_height="180dp"
+                android:alpha="0.9"
+                android:layout_gravity="center"
+                android:src="@drawable/play"
+                />
+        </LinearLayout>
+
+
+
+
+
+    </FrameLayout>
+</LinearLayout>
